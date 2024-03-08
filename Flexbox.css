@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.header{
+    display: flex; /*Responsavel por alinhar os intens lado a lado do HEADER*/
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    padding: 30px;
+    flex-wrap: wrap; /*autoriza os itens se ajustarem a visualização em telas menores*/
+}
+
+/* vamos estilizar o header como se fosse um texto. Devemos tratar os icones como tratamos um texto ao configurar */
+.header i{
+
+font-size: 100px;
+color: white;
+
+}
