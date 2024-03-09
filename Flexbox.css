@@ -1,22 +1,79 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: cursive;
 }
 
-.header{
-    display: flex; /*Responsavel por alinhar os intens lado a lado do HEADER*/
+.header {
+    display: flex;
+    /*Responsavel por alinhar os intens lado a lado do HEADER*/
     justify-content: space-between;
+    /*espaço entre os itens no header*/
     align-items: center;
+    /*alinha os itens na vertical*/
     background-color: red;
-    padding: 30px;
-    flex-wrap: wrap; /*autoriza os itens se ajustarem a visualização em telas menores*/
+    padding: 30px;  /*respiro dentro da caixa*/
+    flex-wrap: wrap;  /*autoriza os itens se ajustarem a visualização em telas menores*/
 }
 
-/* vamos estilizar o header como se fosse um texto. Devemos tratar os icones como tratamos um texto ao configurar */
-.header i{
+/* Estilizar o header como se fosse um texto. Devemos tratar os icones como tratamos um texto ao configurar. A tag i deve ser tratada como um texto */
+.header i {
+    font-size: 100px;
+    color: white;
+}
 
-font-size: 100px;
-color: white;
+.menu li a {
+    text-decoration: none; /*retira a decoração do texto*/
+    color: red; /*muda a cor do texto*/
+    padding: 10px;
+    background-color: white;  /*é a cor de fundo das caixinhas*/
+    border-radius: 5px;
+}
+
+.menu {
+    display: flex; /*deixa tudo o que há dentro do menu lado a lado*/
+}
+
+.menu li {
+    margin-left: 10px; /*sugere usar de 10 a 15px no máximo, para não perder a "mão"*/
+    list-style: none; /*uma alternativa para eliminar as bolinhas ao lado do texto no header*/
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.Flex img{
+    max-width: 100%; /*adaptação do tamanho da imagem ao quadradinho dentro da section*/
+    display: block; /*para que as imagens tenham comportamento de bloco*/
+    
+}
+
+.Flex{
+    display: flex; /*atribuimos a opção lado a lado para as imagens*/
+    flex-wrap: wrap; /*utilizado para caso precise quebrar as imagens*/
+    max-width: 800px; /*adaptação máxima dos conteúdos que estão dentro da section (div)*/
+    margin: 0 auto; /*centraliza as Div*/
+    margin-bottom: 80px; /*coloca margem inferior*/
+    text-align: center;
+}
+
+.Flex Div{
+    margin: 10px; /*espaçamento das margens laterias, superior*/
+    flex: 1 1 200px;  /* cria quadradinhos em duas fileiras. Cada fileira com 3 imagens neste caso*/
+}
+
+.Texto{
+    padding: 150px;
+    background-color: red;
+    color: white;
+    text-align: justify;
+}
+
+footer{
+    padding: auto;
+    background-color: black;
 
 }
+
