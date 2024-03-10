@@ -65,15 +65,20 @@ h1{
 }
 
 .Texto{
-    padding: 150px;
+    padding: 80px;
     background-color: red;
     color: white;
     text-align: justify;
+    font-size: larger;
 }
 
 footer{
-    padding: auto;
-    background-color: black;
+    display: flex;
+    padding: 30px;
+    background-color: rgba(255, 0, 0, 0.745);
+    color: white;
+    justify-content: space-between;
+list-style: none;
 
 }
 
