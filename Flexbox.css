@@ -5,12 +5,9 @@
 }
 
 .header {
-    display: flex;
-    /*Responsavel por alinhar os intens lado a lado do HEADER*/
-    justify-content: space-between;
-    /*espaço entre os itens no header*/
-    align-items: center;
-    /*alinha os itens na vertical*/
+    display: flex; /*Responsavel por alinhar os intens lado a lado do HEADER*/
+    justify-content: space-between; /*espaço entre os itens no header*/
+    align-items: center; /*alinha os itens na vertical*/
     background-color: red;
     padding: 30px;  /*respiro dentro da caixa*/
     flex-wrap: wrap;  /*autoriza os itens se ajustarem a visualização em telas menores*/
@@ -41,14 +38,10 @@
 
 h1{
     text-align: center;
-    margin-top: 100px;
+    padding: 50px;
 }
 
-.Flex img{
-    max-width: 100%; /*adaptação do tamanho da imagem ao quadradinho dentro da section*/
-    display: block; /*para que as imagens tenham comportamento de bloco*/
-    
-}
+
 
 .Flex{
     display: flex; /*atribuimos a opção lado a lado para as imagens*/
@@ -59,6 +52,12 @@ h1{
     text-align: center;
 }
 
+.Flex img{
+    max-width: 100%; /*adaptação do tamanho da imagem ao quadradinho dentro da section*/
+    display: block; /*para que as imagens tenham comportamento de bloco*/
+    
+}
+
 .Flex Div{
     margin: 10px; /*espaçamento das margens laterias, superior*/
     flex: 1 1 200px;  /* cria quadradinhos em duas fileiras. Cada fileira com 3 imagens neste caso*/
@@ -66,19 +65,68 @@ h1{
 
 .Texto{
     padding: 80px;
-    background-color: red;
     color: white;
     text-align: justify;
     font-size: larger;
+    background-color: red;
+    
 }
 
-footer{
+
+
+
+h2{
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+
+.provincias{
     display: flex;
-    padding: 30px;
-    background-color: rgba(255, 0, 0, 0.745);
-    color: white;
-    justify-content: space-between;
-list-style: none;
-
+    flex-wrap: wrap;
+    max-width: 800%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    text-align: center;
+    padding: auto;
 }
 
+
+.provincias img{
+    max-width: 100%; /*adaptação do tamanho da imagem ao quadradinho dentro da section*/
+    display: block; /*para que as imagens tenham comportamento de bloco*/
+    
+}
+
+
+.provincias Div{
+    margin: 30px; /*espaçamento das margens laterias, superior*/
+    flex: 1 1 200px;  /* cria quadradinhos em duas fileiras. Cada fileira com 3 imagens neste caso*/
+}
+
+
+
+.footer{
+    display: flex; /*Responsavel por alinhar os intens lado a lado do HEADER*/
+    justify-content: space-evenly;
+    align-items: center; 
+    background-color: red;
+    padding: 30px; 
+    flex-wrap: wrap; 
+   
+
+.footer sub-menu{
+    text-decoration: none;
+    color: red;
+    background-color: white;
+    display: flex;
+}
+
+.footer social{
+    text-decoration: none;
+    color: red;
+    background-color: white;
+   
+}
