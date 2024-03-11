@@ -43,7 +43,7 @@ h1{
 
 
 
-.Flex{
+.pontosturisticos{
     display: flex; /*atribuimos a opção lado a lado para as imagens*/
     flex-wrap: wrap; /*utilizado para caso precise quebrar as imagens*/
     max-width: 800px; /*adaptação máxima dos conteúdos que estão dentro da section (div)*/
@@ -52,16 +52,17 @@ h1{
     text-align: center;
 }
 
-.Flex img{
+.pontosturisticos img{
     max-width: 100%; /*adaptação do tamanho da imagem ao quadradinho dentro da section*/
     display: block; /*para que as imagens tenham comportamento de bloco*/
     
 }
 
-.Flex Div{
+.pontosturisticos Div{
     margin: 10px; /*espaçamento das margens laterias, superior*/
     flex: 1 1 200px;  /* cria quadradinhos em duas fileiras. Cada fileira com 3 imagens neste caso*/
 }
+
 
 .Texto{
     padding: 80px;
@@ -73,14 +74,10 @@ h1{
 }
 
 
-
-
 h2{
     text-align: center;
     padding: 50px;
 }
-
-
 
 
 .provincias{
@@ -108,6 +105,14 @@ h2{
 
 
 
+.mapa img{
+    align-items: center;
+    margin: 50px;
+    
+}
+
+
+
 .footer{
     display: flex; /*Responsavel por alinhar os intens lado a lado do HEADER*/
     justify-content: space-evenly;
@@ -115,18 +120,21 @@ h2{
     background-color: red;
     padding: 30px; 
     flex-wrap: wrap; 
-   
+}
 
-.footer sub-menu{
+
+.footer .sub-menu{
     text-decoration: none;
     color: red;
     background-color: white;
     display: flex;
 }
 
-.footer social{
+
+.footer .social{
     text-decoration: none;
     color: red;
     background-color: white;
-   
+    display: flex;
 }
+
