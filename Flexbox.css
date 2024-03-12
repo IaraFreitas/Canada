@@ -105,11 +105,7 @@ h2{
 
 
 
-.mapa img{
-    align-items: center;
-    margin: 50px;
-    
-}
+
 
 
 
@@ -118,26 +114,42 @@ h2{
     justify-content: space-evenly;
     background-color: red;
     padding: 30px; 
+    color: white;
+    align-items: center;
+}
+
+.footer .div-ul{
+    display: flex; /*coloca os itens da ul lado a lado*/
+    list-style: none;
+}
+
+.footer li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
     
 }
 
+.footer li a:hover{
+    color: blue;
+    transition: 0.8s;
 
-.footer .sub-menu{
-    text-decoration: none;
+}
+
+.footer li{
+    margin-right: 20px; /*usou para dar espaço entre os itens*/
+    font-size: 20px;
+
+}
+
+.footer i{
     color: red;
-    background-color: white;
+    font-size: 25px;
     padding: 10px;
-    display: flex;
-    margin: 10px 20px;
+    margin-right: 30px;
+    background-color: white;
+    border-radius: 5px;
 }
 
 
-.footer .social{
-    text-decoration: none;
-    color: red;
-    background-color: white;
-    padding: 10px;
-    display: flex;
-    margin: 10px 20px;
-}
 
