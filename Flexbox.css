@@ -41,8 +41,6 @@ h1{
     padding: 50px;
 }
 
-
-
 .pontosturisticos{
     display: flex; /*atribuimos a opção lado a lado para as imagens*/
     flex-wrap: wrap; /*utilizado para caso precise quebrar as imagens*/
