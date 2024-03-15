@@ -4,14 +4,6 @@
     font-family: cursive;
 }
 
-.header {
-    display: flex; /*Responsavel por alinhar os intens lado a lado do HEADER*/
-    justify-content: space-between; /*espaço entre os itens no header*/
-    align-items: center; /*alinha os itens na vertical*/
-    background-color: red;
-    padding: 30px;  /*respiro dentro da caixa*/
-    flex-wrap: wrap;  /*autoriza os itens se ajustarem a visualização em telas menores*/
-}
 
 /* Estilizar o header como se fosse um texto. Devemos tratar os icones como tratamos um texto ao configurar. A tag i deve ser tratada como um texto */
 .header i {
@@ -19,12 +11,14 @@
     color: white;
 }
 
-.menu li a {
-    text-decoration: none; /*retira a decoração do texto*/
-    color: red; /*muda a cor do texto*/
-    padding: 10px;
-    background-color: white;  /*é a cor de fundo das caixinhas*/
-    border-radius: 5px;
+.header {
+    display: flex; /*Responsavel por alinhar os intens lado a lado do HEADER*/
+    justify-content: space-between; /*espaço entre os itens no header*/
+    align-items: center; /*alinha os itens na vertical*/
+    background-color: red;
+    padding: 30px;  /*respiro dentro da caixa*/
+    flex-wrap: wrap;  /*autoriza os itens se ajustarem a visualização em telas menores*/
+    
 }
 
 .menu {
@@ -34,6 +28,14 @@
 .menu li {
     margin-left: 10px; /*sugere usar de 10 a 15px no máximo, para não perder a "mão"*/
     list-style: none; /*uma alternativa para eliminar as bolinhas ao lado do texto no header*/
+}
+
+.menu li a {
+    text-decoration: none; /*retira a decoração do texto*/
+    color: red; /*muda a cor do texto*/
+    padding: 10px;
+    background-color: white;  /*é a cor de fundo das caixinhas*/
+    border-radius: 5px;
 }
 
 h1{
@@ -53,7 +55,8 @@ h1{
 .pontosturisticos img{
     max-width: 100%; /*adaptação do tamanho da imagem ao quadradinho dentro da section*/
     display: block; /*para que as imagens tenham comportamento de bloco*/
-    
+    width: 370px;
+    height: 250px;
 }
 
 .pontosturisticos Div{
@@ -92,7 +95,8 @@ h2{
 .provincias img{
     max-width: 100%; /*adaptação do tamanho da imagem ao quadradinho dentro da section*/
     display: block; /*para que as imagens tenham comportamento de bloco*/
-    
+    width: 250px;
+    height: 150px;
 }
 
 
